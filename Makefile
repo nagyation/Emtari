@@ -18,5 +18,5 @@ $(HEX): $(ELF)
 $(ELF): $(OBJECTS)
 	$(CC) $(CFLAGS) $(LDFLAGS) $(OBJECTS)  -o $@
 
-program: $(HEX)
+upload: $(HEX)
 	avrdude -c usbasp  -p $(MCU) -U flash:w:$<:i
