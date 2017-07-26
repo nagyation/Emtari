@@ -2,7 +2,7 @@ MCU=atmega32
 CFLAGS=-g -Wall -mcall-prologues -mmcu=$(MCU) -Os
 LDFLAGS=-Wl,-gc-sections -Wl,-relax
 CC=avr-gcc
-SOURCES= 
+SOURCES= main.c LCD.c
 OBJECTS=$(SOURCES:.c=.o)
 ELF=$(SOURCES:.c=.elf)
 HEX = emtari.hex
@@ -20,3 +20,4 @@ $(ELF): $(OBJECTS)
 
 upload: $(HEX)
 	avrdude -c usbasp  -p $(MCU) -U flash:w:$<:i
+
