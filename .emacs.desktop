@@ -1,0 +1,43 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Wed Jul 26 01:24:02 2017
+;; Desktop file format version 208
+;; Emacs version 25.2.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22903 54034 194992 805000) (desktop . "208") "nagy@nagys-laptop" nil nil ((((font-backend xft x) (font . "-MS  -MS Reference Sans Serif-normal-normal-normal-*-13-*-*-*-*-0-iso10646-1") (font-parameter . "MS Reference Sans Serif 10") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#F8F8F8") (background-color . "#0C1021") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tool-bar-lines . 1) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 0) (alpha) (fullscreen . fullboth) (display-type . color) (background-mode . dark) (cursor-color . "white") (sticky) (environment) (fullscreen-restore) (frameset--id . "2154-BF66-3BC2-344D") (frameset--mini t . t) (height . 41) (width . 166) (modeline . t) (minibuffer . t) (unsplittable) (left . 0) (top . 0) (icon-name) (visibility . t) (display . ":0") (explicit-name)) ((min-height . 8) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 6) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 136) (min-pixel-width . 80) (min-pixel-height-ignore . 68) (min-pixel-width-ignore . 48) (min-pixel-height-safe . 34) (min-pixel-width-safe . 16)) vc (pixel-width . 1366) (pixel-height . 682) (total-width . 171) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1366) (pixel-height . 442) (total-width . 171) (total-height . 26) (normal-height . 0.6428571428571428) (normal-width . 1.0) (buffer "Makefile" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 316) (start . 1))) (leaf (last . t) (pixel-width . 1366) (pixel-height . 240) (total-width . 171) (total-height . 14) (normal-height . 0.35714285714285715) (normal-width . 1.0) (buffer "*ansi-term*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 1899) (start . 1685)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/home/nagy/workspace/Emtari" "~/workspace/Emtari/scheduler.c" "~/workspace/Emtari/Makefile" "~/workspace/Emtari/.gitignore" "~/workspace/Emtari/Makefile"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/nagy/workspace/Emtari/Makefile"
+  "Makefile"
+  'makefile-gmake-mode
+  '(override-global-mode company-mode)
+  316
+  '(186 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (185))))
+
+(desktop-create-buffer 208
+  "/home/nagy/workspace/Emtari/.gitignore"
+  ".gitignore"
+  'fundamental-mode
+  '(override-global-mode company-mode)
+  2
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
