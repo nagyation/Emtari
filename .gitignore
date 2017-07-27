@@ -1,7 +1,8 @@
+
 #custorm
 *~
 *#
-#.emacs.desktop
+*.emacs.desktop
 
 # Prerequisites
 *.d
